@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DTHREADS | Clothing Catalogue</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#f8f8f8; color:#222; }
+    header { background:#111; color:#fff; padding:20px; text-align:center; }
+    header h1 { margin:0; letter-spacing:2px; }
+    header p { margin:5px 0 0; font-size:14px; }
+
+    .container { width:90%; max-width:1100px; margin:auto; padding:40px 0; }
+
+    h2 { text-align:center; margin-bottom:30px; }
+
+    .catalogue { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:20px; }
+
+    .card { background:#fff; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.08); padding:15px; text-align:center; }
+    .card img { width:100%; height:260px; object-fit:cover; border-radius:6px; }
+    .card h3 { margin:10px 0 5px; }
+    .price { font-weight:bold; margin-bottom:10px; }
+
+    .btns a { display:inline-block; margin:5px; padding:10px 15px; text-decoration:none; border-radius:5px; font-size:14px; }
+    .whatsapp { background:#25D366; color:#fff; }
+    .instagram { background:#E1306C; color:#fff; }
+
+    .about { background:#fff; padding:40px 20px; margin-top:40px; border-radius:8px; }
+    .about p { max-width:700px; margin:auto; text-align:center; }
+
+    footer { background:#111; color:#fff; text-align:center; padding:15px; margin-top:40px; font-size:14px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>DTHREADS</h1>
+  <p>Simple • Stylish • Modern Clothing</p>
+</header>
+
+<div class="container">
+
+  <h2>Catalogue</h2>
+  <div class="catalogue">
+
+    <!-- Product 1 -->
+    <div class="card">
+      <img src="https://via.placeholder.com/400x500" alt="T-Shirt">
+      <h3>Printed T‑Shirt</h3>
+      <p class="price">₹499</p>
+      <div class="btns">
+        <a class="whatsapp" href="https://wa.me/919151604497?text=I%20want%20to%20order%20Printed%20T-Shirt" target="_blank">Order on WhatsApp</a>
+        <a class="instagram" href="https://www.instagram.com/dthr.eads?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="card">
+      <img src="https://via.placeholder.com/400x500" alt="Shirt">
+      <h3>Casual Shirt</h3>
+      <p class="price">₹899</p>
+      <div class="btns">
+        <a class="whatsapp" href="https://wa.me/919151604497?text=I%20want%20to%20order%20Casual%20Shirt" target="_blank">Order on WhatsApp</a>
+        <a class="instagram" href="https://www.instagram.com/dthr.eads?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="card">
+      <img src="https://via.placeholder.com/400x500" alt="Hoodie">
+      <h3>Hoodie</h3>
+      <p class="price">₹1299</p>
+      <div class="btns">
+        <a class="whatsapp" href="https://wa.me/919151604497?text=I%20want%20to%20order%20Hoodie" target="_blank">Order on WhatsApp</a>
+        <a class="instagram" href="https://www.instagram.com/dthr.eads?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a>
+      </div>
+        <!--
+    ================= ADD NEW PRODUCT =================
+    COPY FROM <div class="card"> ... </div>
+    PASTE BELOW AND CHANGE:
+    1. Image link (img src)
+    2. Product name
+    3. Price
+    4. WhatsApp message text
+    ==================================================
+    -->
+
+  </div>
+
+  <div class="about">
+    <h2>About DTHREADS</h2>
+    <p>
+      DTHREADS is a modern clothing brand focused on quality and style.
+      To place an order, connect with us directly on WhatsApp or Instagram.
+      <br><br>
+      📞 WhatsApp: <strong>+91 9151604497</strong><br>
+      📸 Instagram: <strong>https://www.instagram.com/dthr.eads?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==</strong>
+    </p>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 DTHREADS. All Rights Reserved.
+</footer>
+
+</body>
+</html>
